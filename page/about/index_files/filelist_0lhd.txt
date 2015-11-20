@@ -1,0 +1,9 @@
+C:\Users\Simon\Desktop\關於我們\index_files\button_bg.png
+C:\Users\Simon\Desktop\關於我們\index_files\buttonhot_bg.png
+C:\Users\Simon\Desktop\關於我們\index_files\ebab_mbmcp.png
+C:\Users\Simon\Desktop\關於我們\index_files\ebab_mbmcp_c.png
+C:\Users\Simon\Desktop\關於我們\index_files\ebab_mbmcp_c2.png
+C:\Users\Simon\Desktop\關於我們\index_files\mbjsmbmcp.js
+C:\Users\Simon\Desktop\關於我們\index_files\mbcsmbmcp.css
+C:\Users\Simon\Desktop\關於我們\index.htm
+C:\Users\Simon\Desktop\關於我們\index_files\filelist_0lhd.txt

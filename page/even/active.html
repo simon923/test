@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>荷楓日式陶鍋-活動</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/hf_icon.ico" />
+    <link rel="stylesheet" href="index_files/mbcsmbmcp.css" type="text/css" />
+    <link href="../../SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/buttons.js"></script>
+    <script src="../../SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+    <link href="../../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <script src="../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    body {
+        background-image: url(images/images.jpg);
+        background-repeat: repeat;
+    }
+    /*--------------------基本架構樣式---------------------*/
+    
+    #wrapper {
+        position: relative;
+        width: 960px;
+        margin: auto;
+        /*版面居中對齊*/
+    }
+    
+    #header {
+        height: 180px;
+        width: 960px;
+        background-image: url(images/header.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /*-----------------按鈕選單------------------------*/
+    
+    .button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #menufirst {
+        border-top-left-radius: 45px;
+    }
+    #menucolor {
+		background-color:rgba(255,0,30,0.5);
+		}
+    .MenuBarHorizontal span {
+        font-size: 12px;
+    }
+    /*-----------------------icon-------------------------*/
+    
+    .icon {
+        height: 32px;
+        width: 120px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    
+    .icon ul {
+        width: 120px;
+    }
+    
+    .icon ul li {
+        width: 32px;
+        height: 32px;
+        float: left;
+        text-indent: -9999px;
+        padding-right: 8px;
+    }
+    
+    .icon ul li a:link,
+    .icon ul li a:visited {
+        display: block;
+        height: 32px;
+        width: 32px;
+        text-indent: -9999px;
+    }
+    
+    .icon ul #fb a:link,
+    .icon ul #fb a:visited {
+        background-image: url(icon/facebook_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #fb a:hover {
+        background-image: url(icon/facebook_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:link,
+    .icon ul #google a:visited {
+        background-image: url(icon/google_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:hover {
+        background-image: url(icon/google_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:link,
+    .icon ul #twitter a:visited {
+        background-image: url(icon/twitter_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:hover {
+        background-image: url(icon/twitter_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    /*-------------------------頁尾---------------------------*/
+    
+    .footer {
+        width: 960px;
+        background-color: rgba(0, 0, 0, .7);
+        position: relative;
+        /*height: 300px;*/
+        
+        overflow: hidden;
+    }
+    
+    .footer .row_servise p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 40px;
+        word-spacing: 5px;
+    }
+    
+    .footer .row_store p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_community p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_phone p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-left: 60px;
+    }
+    
+    .row_store {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_servise {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_map {
+        position: relative;
+    }
+    
+    .row_community {
+        width: 200px;
+        line-height: 25px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .row_phone {
+        position: relative;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }
+    
+    .copy_right {
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        font-size: 10px;
+        color: #FFF;
+    }
+    
+    .footer a:link,
+    .footer a:visited {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        color: #F60;
+        text-decoration: none;
+    }
+    /*--------------------內容-----------------------*/
+    
+    #content {
+        position: relative;
+        /*background-image: url(images/bg2.jpg);*/
+        
+        background-color: #FFF;
+        background-repeat: repeat;
+        overflow: hidden;
+    }
+    
+    .menupic {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .border {
+        width: 620px;
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: #F03;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    
+    .border2 {
+        width: 620px;
+        border-top-width: 1px;
+        border-top-style: dashed;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: #333;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .page li {
+        float: left;
+        list-style: none;
+    }
+    
+    .but1 {
+        padding-left: 150px;
+    }
+    
+    .wid {
+        padding-left: 70px;
+        padding-top: 30px;
+        width: 600px;
+    }
+    
+    .group {
+        overflow: auto;
+        padding: 20px;
+    }
+    
+    .act {
+        margin-bottom: 20px;
+    }
+    
+    .act_txt {
+        width: 250px;
+        float: left;
+        padding: 15px;
+        line-height: 1.7em;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    
+    .act_pic {
+        box-shadow: 2px 3px 22px #1f1f1f;
+        float: left;
+    }
+    /*-----------連結樣式--------------*/
+    
+    a:link,
+    a:visited {
+        color: #FFF;
+    }
+    
+    a:hover {
+        color: #F00;
+    }
+    
+    .txt ul li a:link,
+    .txt ul li a:visited {
+        color: #FFF;
+    }
+    
+    .txt ul li a:hover {
+        color: #F00;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="../../index.html"> <img src="images/logo_01.png" width="173" height="180" /> </a>
+            <div class="icon">
+                <ul>
+                    <li id="fb"><a href="#">fb</a></li>
+                    <li id="google"><a href="#">gl</a></li>
+                    <li id="twitter"><a href="#">tw</a></li>
+                </ul>
+                <br clear="all" />
+            </div>
+            <div class="button">
+                <ul id="MenuBar1" class="MenuBarHorizontal">
+                    <li><a id="menufirst" class="MenuBarItemSubmenu" href="../menu/menu.html">菜單介紹<br /><span>MENU</span></a>
+                        <ul>
+                            <li><a href="../menu/menu.html">鍋物</a></li>
+                            <li><a href="#">時蔬</a></li>
+                            <li><a href="#">小菜</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="menucolor" href="even.html" class="MenuBarItemSubmenu">最新消息<BR><span>NEWS</span></a>
+                        <ul>
+                            <li><a href="even.html">消息</a></li>
+                            <li><a href="active.html">活動</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../store/store.html">店家資訊<BR /><span>STORE</span></a> </li>
+                    <li><a href="../about/about.html">關於我們<BR><span>ABOUT</span></a></li>
+                    <li><a href="../contact/contact.html">聯絡我們<br /><span>CONTACT</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="mbmcpebul_wrapper" style="width: 38px;">
+                <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+                    <li class="first_button">
+                        <div class="buttonbg gradient_button gradient100"><a href="even.html">消<br />息</a></div>
+                    </li>
+                    <li class="last_button">
+                        <div class="buttonbg gradient_button1 gradient100"><a href="active.html">活<br />動</a></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menupic">
+                <img src="images/news/img_event.png" alt="">
+            </div>
+            <!--start !-->
+            <div class="wid">
+                <h2>火熱活動</h2>
+                <div class=border></div>
+                <div class="act">
+                    <div class="group">
+                        <div class="act_pic"><img src="images/activity/12_award_s.jpg" alt=""></div>
+                        <div class="act_txt">
+                            <h4>榮獲2012年日式連鎖餐廳</h4>金賞 (評鑑單位: 天下雜誌金牌服務大賞)</div>
+                    </div>
+                    <div class="border2"></div>
+                    <div class="group">
+                        <div class="act_pic"><img src="images/activity/12_golden_s.jpg" alt=""></div>
+                        <div class="act_txt">
+                            <h4>恭喜主廚宋皇志榮獲</h4>2012 泰國廚藝大賽 金牌獎、特優獎</div>
+                    </div>
+                    <div class="border2"></div>
+                    <div class="group">
+                        <div class="act_pic"><img src="images/activity/14_gift_id_s.jpg" alt=""></div>
+                        <div class="act_txt">
+                            <h4>禮券購買請洽直營門市</h4>為確保您個人消費權益，請至直營門市購買</div>
+                    </div>
+                    <div class="border2"></div>
+                    <div class="group">
+                        <div class="act_pic"><img src="images/activity/15_teacher_s.jpg" alt=""></div>
+                        <div class="act_txt">
+                            <h4>謝師 禮頌</h4>即日起預約訂位謝師宴，6/30前用餐恩師禮頌回饋(總價值480元)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row_store">
+                <p> <i class="fa fa-caret-right "></i><strong> 店家資訊</strong>
+                    <p> 店名 : 荷楓日式陶鍋
+                        <br /> 地址 : 桃園縣中壢市實踐路225-26號
+                        <br /> 電話 : (03)465-8585
+                        <br /> 營業時間 : 週一至週日 11:00~21:00
+                        <br/>
+            </div>
+            <div class="copy_right"> © 2015 荷楓日式陶鍋. ALL RIGHTS RESERVED. </div>
+            <div class="row_servise">
+                <p> <i class="fa fa-caret-right "></i><strong> 其他服務</strong>
+                    <br />
+                    <p> <a href="#">外送服務</a> / <a href="#">線上訂位</a> / <a href="#">友好連結</a>
+                        <div class="row_map">
+                            <p> <i class="fa fa-caret-right "></i><strong> 地圖</strong>
+                                <br />
+                                <img src="images/map_03.png" width="281" height="173" /></p>
+                        </div>
+            </div>
+            <div class="row_community">
+                <p> <i class="fa fa-caret-right "></i><strong> 社群</strong>
+                    <br />
+                    <p><i class="fa fa-cutlery"></i> <a href="#">美食APP</a>
+                        <br />
+                        <i class="fa fa-facebook-square"></i> <a href="#">FB粉絲團</a>
+                        <br />
+                    </p>
+                    <div class="row_phone">
+                        <p> <i class="fa fa-caret-right "></i><strong> 手機板</strong></p>
+                        <p> <img src="images/qr_06.jpg" width="70" height="70" />
+                    </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+        </script>
+        <script type="text/javascript">
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {
+            imgDown: "../../SpryAssets/SpryMenuBarDownHover.gif",
+            imgRight: "../../SpryAssets/SpryMenuBarRightHover.gif"
+        });
+        </script>
+</body>
+
+</html>

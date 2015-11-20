@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <link rel="stylesheet" href="index2_files/mbcsmbmcp.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/hf_icon.ico" />
+    <script src="../../js/modernizr-2.5.2-respond-1.1.0.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="../../js/jquery.mousewheel.js" type="text/javascript"></script>
+    <script src="../../js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <link href="../../css/flexslider.css" rel="stylesheet" type="text/css" />
+    <link href="../../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <script src="../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <script type="text/xml">
+        <!--
+<oa:widgets>
+  <oa:widget wid="e395051064e17ee7762d1975999cea3c" binding="#OAWidget" />
+</oa:widgets>
+-->
+    </script>
+    <title>荷楓日式陶鍋-菜單</title>
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    body {
+        background-image: url(images/images.jpg);
+        background-repeat: repeat;
+    }
+    /*--------------------基本架構樣式---------------------*/
+    
+    #wrapper {
+        position: relative;
+        width: 960px;
+        margin: auto;
+        /*版面居中對齊*/
+    }
+    
+    #header {
+        height: 180px;
+        width: 960px;
+        background-image: url(images/header.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /*-----------------按鈕選單------------------------*/
+    
+    .button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #menufirst {
+        border-top-left-radius: 45px;
+		background-color:rgba(255,0,30,0.5);
+    }
+    
+    .MenuBarHorizontal span {
+        font-size: 12px;
+    }
+    /*-----------------------icon-------------------------*/
+    
+    .icon {
+        height: 32px;
+        width: 120px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    
+    .icon ul {
+        width: 120px;
+    }
+    
+    .icon ul li {
+        width: 32px;
+        height: 32px;
+        float: left;
+        text-indent: -9999px;
+        padding-right: 8px;
+    }
+    
+    .icon ul li a:link,
+    .icon ul li a:visited {
+        display: block;
+        height: 32px;
+        width: 32px;
+        text-indent: -9999px;
+    }
+    
+    .icon ul #fb a:link,
+    .icon ul #fb a:visited {
+        background-image: url(icon/facebook_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #fb a:hover {
+        background-image: url(icon/facebook_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:link,
+    .icon ul #google a:visited {
+        background-image: url(icon/google_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:hover {
+        background-image: url(icon/google_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:link,
+    .icon ul #twitter a:visited {
+        background-image: url(icon/twitter_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:hover {
+        background-image: url(icon/twitter_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    /*-------------------------頁尾---------------------------*/
+    
+    .footer {
+        width: 960px;
+        background-color: rgba(0, 0, 0, .7);
+        position: relative;
+        /*height: 300px;*/
+        
+        overflow: hidden;
+    }
+    
+    .footer .row_servise p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 40px;
+        word-spacing: 5px;
+    }
+    
+    .footer .row_store p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_community p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_phone p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-left: 60px;
+    }
+    
+    .row_store {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_servise {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_map {
+        position: relative;
+    }
+    
+    .row_community {
+        width: 200px;
+        line-height: 25px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .row_phone {
+        position: relative;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }
+    
+    .copy_right {
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        font-size: 10px;
+        color: #FFF;
+    }
+    
+    .footer a:link,
+    .footer a:visited {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        color: #F60;
+        text-decoration: none;
+    }
+    /*--------------------內容-----------------------*/
+    
+    #content {
+        position: relative;
+        /*background-image: url(images/bg2.jpg);*/
+        
+        background-color: #FFF;
+        background-repeat: repeat;
+        overflow: hidden;
+    }
+    /*START*/
+    
+    #content h3 {
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    
+    .border {
+        width: 500px;
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: #F03;
+        margin-top: 5px;
+    }
+    
+    .sq {
+        width: 240px;
+        box-sizing: border-box;
+        float: left;
+        margin-bottom: 10px;
+    }
+    
+    .txt {
+        line-height: 1.7em;
+        letter-spacing: 1px;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    
+    .pic {
+        width: 100%;
+        box-shadow: 1px 1px 25px #261f26;
+    }
+    
+    .soup_txt {
+        line-height: 1.7em;
+        letter-spacing: 2px;
+        font-size: 13px;
+        width: 600px;
+    }
+    
+    #content .group {
+        padding: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #content li img {
+        width: 200px;
+    }
+    
+    .menupic {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .wid {
+        padding-top: 30px;
+        padding-left: 120px;
+    }
+    
+    .menupic {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    /*END*/
+    /*-----------連結樣式--------------*/
+    
+    a:link,
+    a:visited {
+        color: #F60;
+    }
+    
+    a:hover {
+        color: #F00;
+    }
+    
+    .txt ul li a:link,
+    .txt ul li a:visited {
+        color: #FFF;
+    }
+    
+    .txt ul li a:hover {
+        color: #F00;
+    }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+    // BeginOAWidget_Instance_e395051064e17ee7762d1975999cea3c: #OAWidget
+    $(window).load(function() {
+
+        $('#carousel').show();
+        $('#carousel').flexslider({
+            animation: 'slide',
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 210,
+            itemMargin: 5,
+            asNavFor: '#slider'
+        });
+
+        $('#slider').flexslider({
+            namespace: "flex-", //{NEW} String: Prefix string attached to the class of every element generated by the plugin
+            selector: ".slides > li", //{NEW} Selector: Must match a simple pattern. '{container} > {slide}' -- Ignore pattern at your own peril
+            animation: "slide",
+            easing: "swing", //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!    
+            direction: "horizontal", //String: Select the sliding direction, 'horizontal' or 'vertical'
+            reverse: false, //{NEW} Boolean: Reverse the animation direction
+            animationLoop: false, //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+            smoothHeight: true, //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode   
+            slideshow: true, //Boolean: Animate slider automatically
+            slideshowSpeed: 5000, //Integer: Set the speed of the slideshow cycling, in milliseconds
+            animationSpeed: 600, //Integer: Set the speed of animations, in milliseconds  
+            initDelay: 0, //{NEW} Integer: Set an initialization delay, in milliseconds
+            randomize: false, //Boolean: Randomize slide order
+            useCSS: true, //{NEW} Boolean: Slider will use CSS3 transitions if available
+            touch: true, //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
+            video: false, //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
+            directionNav: false, //Boolean: Create navigation for previous/next navigation? (true/false)
+
+            controlNav: false, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+            keyboard: true, //Boolean: Allow slider navigating via keyboard left/right keys
+            mousewheel: false, //Boolean: Allow slider navigating via mousewheel
+            prevText: "Previous", //String: Set the text for the "previous" directionNav item
+            nextText: "Next", //String: Set the text for the "next" directionNav item
+            pausePlay: false, //Boolean: Create pause/play dynamic element
+            pauseText: "Pause", //String: Set the text for the "pause" pausePlay item
+            playText: "Play", //String: Set the text for the "play" pausePlay item
+            startAt: 0, //Integer: The slide that the slider should start on. Array notation (0 = first slide)
+            pauseOnAction: true, //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+            pauseOnHover: true, //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering     
+            start: function() {}, //Callback: function(slider) - Fires when the slider loads the first slide
+            controlsContainer: "", //Selector: Declare which container the navigation elements should be appended too. Default container is the flexSlider element. Example use would be ".flexslider-container", "#container", etc. If the given element is                                                not found, the default action will be taken.
+            manualControls: "", //Selector: Declare custom control navigation. Example would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
+            // Carousel Options
+            itemWidth: 0, //{NEW} Integer: Box-model width of individual carousel items, including horizontal borders and padding.
+            itemMargin: 10, //{NEW} Integer: Margin between carousel items.
+            minItems: 0, //{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
+            maxItems: 0, //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
+            move: 0, //{NEW} Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.
+            before: function() {}, //Callback: function(slider) - Fires asynchronously with each slider animation
+            after: function() {}, //Callback: function(slider) - Fires after each slider animation completes
+            end: function() {} //Callback: function(slider) - Fires when the slider reaches the last slide (asynchronous)
+        });
+    });
+    // EndOAWidget_Instance_e395051064e17ee7762d1975999cea3c
+    </script>
+    <div id="wrapper">
+        <div id="header">
+            <a href="../../index.html"> <img src="images/logo_01.png" width="173" height="180" /> </a>
+            <div class="icon">
+                <ul>
+                    <li id="fb"><a href="#">fb</a></li>
+                    <li id="google"><a href="#">gl</a></li>
+                    <li id="twitter"><a href="#">tw</a></li>
+                </ul>
+                <br clear="all" />
+            </div>
+            <div class="button">
+                <ul id="MenuBar1" class="MenuBarHorizontal">
+                    <li><a id="menufirst" class="MenuBarItemSubmenu" href="menu.html">菜單介紹<br /><span>MENU</span></a>
+                        <ul>
+                            <li><a href="menu.html">鍋物</a></li>
+                            <li><a href="#">時蔬</a></li>
+                            <li><a href="#">小菜</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../even/even.html" class="MenuBarItemSubmenu">最新消息<BR><span>NEWS</span></a>
+                        <ul>
+                            <li><a href="../even/even.html">消息</a></li>
+                            <li><a href="../even/active.html">活動</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../store/store.html">店家資訊<BR /><span>STORE</span></a> </li>
+                    <li><a href="../about/about.html">關於我們<BR><span>ABOUT</span></a></li>
+                    <li><a href="../contact/contact.html">聯絡我們<br /><span>CONTACT</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <!--START-->
+            <div class="menupic">
+                <img src="images/menu/img_menu.png" alt="">
+            </div>
+            <div id="mbmcpebul_wrapper" style="width: 38px;">
+                <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+                    <li class="first_button">
+                        <div class="buttonbg gradient_button1 gradient100"><a>陶<br />鍋</a></div>
+                    </li>
+                    <li>
+                        <div class="buttonbg gradient_button gradient100"><a>時<br />蔬</a></div>
+                    </li>
+                    <li class="last_button">
+                        <div class="buttonbg gradient_button gradient100"><a>小<br />菜</a></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menupic">
+                <img src="images/menu/img_menu.png" alt="">
+            </div>
+            <div class="wid">
+                <h2>日式陶鍋 肉品+湯底 NT.110 </h2>
+                <div class=border></div>
+                <h3><i class="fa fa-cutlery"></i> 肉品</h3>
+                <ul>
+                    <li class="sq">
+                        <div class="group">
+                            <div class="pic"><img src="images/menu/cow.jpg" alt=""></div>
+                            <div class="txt">
+                                <h4>岩燒石板牛肉</h4>牛肉於300°C岩板微炙5分熟、肉汁瞬間封存，佐以海鹽或主廚特製蒜辣醬， 口感鮮嫩多汁。
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sq">
+                        <div class="group">
+                            <div class="pic"><img src="images/menu/sheep.jpg" alt=""></div>
+                            <div class="txt">
+                                <h4>岩燒石板羊肉</h4>嚴選肉質鮮嫩的羊肉切片，創意DIY的岩燒方式，左食藝、右玩味。
+                            </div>
+                        </div>
+                    </li>
+                    <br clear="all">
+                    <li class="sq">
+                        <div class="group">
+                            <div class="pic"><img src="images/menu/chicken.jpg" alt=""></div>
+                            <div class="txt">
+                                <h4>蕈菇醬烤雞肉</h4>以碳烤燒肉醬拌炒蕈菇增添香氣，並包覆於雞肉與皮之間，滑嫩多汁的層次口感，富有飽滿風味。 </div>
+                        </div>
+                    </li>
+                    <li class="sq">
+                        <div class="group">
+                            <div class="pic"><img src="images/menu/pig.jpg" alt=""></div>
+                            <div class="txt">
+                                <h4>日式辣味豬肉</h4>特選豬肉搭配獨門特製辣味滷汁，以先滷後蒸方式料理，佐以蔥花及麻辣醬，口感帶層次且具獨特風味。</div>
+                        </div>
+                    </li>
+                    <br clear="all">
+                    <li class="sq">
+                        <div class="group">
+                            <div class="pic"><img src="images/menu/seafood.jpg" alt=""></div>
+                            <div class="txt">
+                                <h4>季節鮮魚刺身</h4>精選當令生鮮魚材，不同海鮮的鮮甜與細緻，搭配高雅的花器盛盤，食藝加倍升級。</div>
+                        </div>
+                    </li>
+                    <li class="sq">
+                        <div class="group">
+                            <div class="pic"><img src="images/menu/sue.jpg" alt=""></div>
+                            <div class="txt">
+                                <h4>養生素食</h4>嚴選牛番茄搭配蒜味洋芋泥及和風醬汁， 製作成番茄洋芋塔，立體呈現食藝兼具。
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <br clear="all">
+                <h3><i class="fa fa-cutlery"></i> 湯底</h3>
+                <div class="group">
+                    <div id="container">
+                        <div id="carousel" class="flexslider" style="display:none;">
+                            <ul class="slides">
+                                <li> <img src="images/menu/03_01.jpg" /> </li>
+                                <li> <img src="images/menu/06_01.jpg" /> </li>
+                                <li> <img src="images/menu/soup.jpg" /> </li>
+                                <li> <img src="images/menu/08_01.jpg" /> </li>
+                                <li> <img src="images/menu/03_02.jpg" /> </li>
+                                <li> <img src="images/menu/sue.jpg" /> </li>
+                                <li> <img src="images/menu/09_01.jpg" /> </li>
+                                <li> <img src="images/menu/04_03.jpg" /> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="soup_txt">
+                        我們精選10種人氣湯頭：日式原味、昆布海鮮、韓式泡菜、招牌麻辣、養生藥膳、香醇牛奶、古早甘蔗、義式番茄、菇菇養生鍋、泰式酸辣鍋嚴選素材合製而成，喝起來特別甘甜。
+                    </ul>
+                    <br clear="all">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row_store">
+                <p> <i class="fa fa-caret-right "></i><strong> 店家資訊</strong>
+                    <p> 店名 : 荷楓日式陶鍋
+                        <br /> 地址 : 桃園縣中壢市實踐路225-26號
+                        <br /> 電話 : (03)465-8585
+                        <br /> 營業時間 : 週一至週日 11:00~21:00
+                        <br/>
+            </div>
+            <div class="copy_right"> © 2015 荷楓日式陶鍋. ALL RIGHTS RESERVED. </div>
+            <div class="row_servise">
+                <p> <i class="fa fa-caret-right "></i><strong> 其他服務</strong>
+                    <br />
+                    <p> <a href="#">外送服務</a> / <a href="#">線上訂位</a> / <a href="#">友好連結</a>
+                        <div class="row_map">
+                            <p> <i class="fa fa-caret-right "></i><strong> 地圖</strong>
+                                <br />
+                                <img src="images/map_03.png" width="281" height="173" /></p>
+                        </div>
+            </div>
+            <div class="row_community">
+                <p> <i class="fa fa-caret-right "></i><strong> 社群</strong>
+                    <br />
+                    <p><i class="fa fa-cutlery"></i> <a href="#">美食APP</a>
+                        <br />
+                        <i class="fa fa-facebook-square"></i> <a href="#">FB粉絲團</a>
+                        <br />
+                    </p>
+                    <div class="row_phone">
+                        <p> <i class="fa fa-caret-right "></i><strong> 手機板</strong></p>
+                        <p> <img src="images/qr_06.jpg" width="70" height="70" />
+                    </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {
+            imgDown: "../../SpryAssets/SpryMenuBarDownHover.gif",
+            imgRight: "../../SpryAssets/SpryMenuBarRightHover.gif"
+        });
+        </script>
+</body>
+
+</html>

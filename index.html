@@ -1,0 +1,730 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>荷楓日式陶鍋-首頁</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/hf_icon.ico" />
+    <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    body {
+        background-image: url(images/images.jpg);
+        background-repeat: repeat;
+    }
+    /*--------------------基本架構樣式---------------------*/
+    
+    #wrapper {
+        position: relative;
+        width: 960px;
+        margin: auto;
+        /*版面居中對齊*/
+    }
+    
+    #header {
+        height: 180px;
+        width: 960px;
+        background-image: url(images/header.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /*-----------------按鈕選單------------------------*/
+    
+    .button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #menufirst {
+        border-top-left-radius: 45px;
+    }
+    
+    .MenuBarHorizontal span {
+        font-size: 12px;
+    }
+    /*-----------------------icon-------------------------*/
+    
+    .icon {
+        height: 32px;
+        width: 120px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    
+    .icon ul {
+        width: 120px;
+    }
+    
+    .icon ul li {
+        width: 32px;
+        height: 32px;
+        float: left;
+        text-indent: -9999px;
+        margin-right: 8px;
+    }
+    
+    .icon ul li a:link,
+    .icon ul li a:visited {
+        display: block;
+        height: 32px;
+        width: 32px;
+        text-indent: -9999px;
+    }
+    
+    .icon ul #fb a:link,
+    .icon ul #fb a:visited {
+        background-image: url(icon/facebook_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #fb a:hover {
+        background-image: url(icon/facebook_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:link,
+    .icon ul #google a:visited {
+        background-image: url(icon/google_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:hover {
+        background-image: url(icon/google_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:link,
+    .icon ul #twitter a:visited {
+        background-image: url(icon/twitter_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:hover {
+        background-image: url(icon/twitter_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    /*-------------------------頁尾---------------------------*/
+    
+    .footer {
+        width: 960px;
+        background-color: rgba(0, 0, 0, .7);
+        position: relative;
+        height: 310px;
+        overflow: hidden;
+    }
+    
+    .footer .row_servise p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 40px;
+        word-spacing: 5px;
+    }
+    
+    .footer .row_store p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_community p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_phone p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-left: 60px;
+    }
+    
+    .row_store {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_servise {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_map {
+        position: relative;
+    }
+    
+    .row_community {
+        width: 200px;
+        line-height: 25px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .row_phone {
+        position: relative;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }
+    
+    .copy_right {
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        font-size: 10px;
+        color: #FFF;
+    }
+    
+    .footer a:link,
+    .footer a:visited {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        color: #F60;
+        text-decoration: none;
+    }
+    /*--------------------內容-----------------------*/
+    
+    #content {
+        position: relative;
+        overflow: hidden;
+        background-image: url(images/bg2.jpg);
+        background-repeat: repeat;
+    }
+    
+    .banner {
+        width: 960px;
+        height: 432px;
+        background: url(images/content/banner1.jpg);
+        position: relative;
+        top: 0px;
+        margin-bottom: 45px;
+        text-indent: -9999px;
+    }
+    
+    .event_pic {
+        float: left;
+        margin-top: 30px;
+        margin-right: 19px;
+        margin-left: 19px;
+    }
+    
+    .event_text {
+        width: 242px;
+        padding: 20px;
+        padding-top: 2px;
+        box-sizing: content-box;
+        /*background-color: rgba(0,0,0,.2);*/
+        
+        float: left;
+        display: block;
+        margin-right: 19px;
+        margin-left: 19px;
+        line-height: 1.7em;
+        color: #333333;
+        font-size: 13px;
+    }
+    
+    .event_text:hover {
+        width: 242px;
+        padding: 20px;
+        padding-top: 2px;
+        background-color: rgba(0, 0, 0, .2);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        float: left;
+        display: block;
+        margin-right: 19px;
+        margin-left: 19px;
+        line-height: 1.7em;
+        color: #333333;
+        font-size: 13px;
+    }
+    
+    #content h2 {
+        text-align: center;
+    }
+    
+    .news {
+        width: 920px;
+        height: 600px;
+        margin-left: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .news_pic1 {
+        float: left;
+        width: 451px;
+        height: 290px;
+    }
+    
+    .news_pic2 {
+        float: left;
+        width: 451px;
+        height: 290px;
+    }
+    
+    .news_pic3 {
+        float: left;
+        width: 451px;
+        height: 290px;
+    }
+    
+    .news_text {
+        width: 371px;
+        float: left;
+        height: 210px;
+        background-color: #FFF;
+        display: block;
+        font-size: 13px;
+        line-height: 30px;
+        color: #333;
+        padding: 40px;
+        box-sizing: content-box;
+    }
+    
+    .news_text:hover {
+        width: 371px;
+        float: left;
+        height: 210px;
+        background-color: rgba(255, 0, 0, .2);
+        display: block;
+        font-size: 13px;
+        line-height: 30px;
+        color: #333;
+        padding: 40px;
+    }
+    /*    .news_ani {
+        float: left;
+        width: 451px;
+        height: 290px;
+        background-color: #FFF;
+        
+    }*/
+    
+    .box_all {
+        margin-top: 30px;
+        margin-left: 81px;
+        margin-right: 81px;
+        margin-bottom: 50px;
+    }
+    
+    .box_left {
+        width: 403px;
+        height: 531px;
+        float: left;
+    }
+    
+    .box {
+        width: 403px;
+        height: 266px;
+        position: relative;
+    }
+    
+    .box img {
+        width: 100%;
+        transform: perspective(300px) rotateY(0deg);
+        backface-visibility: hidden;
+        transition: .5s;
+    }
+    
+    .box .txt {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        line-height: 34px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: perspective(300px) rotateY(180deg);
+        backface-visibility: hidden;
+        transition: .5s;
+    }
+    
+    .box:hover img {
+        transform: perspective(300px) rotateY(-180deg);
+    }
+    
+    .box:hover .txt {
+        transform: perspective(300px) rotateY(0deg);
+    }
+    
+    .box2 {
+        width: 394px;
+        height: 531px;
+        position: relative;
+        float: left;
+    }
+    
+    .box2 img {
+        width: 100%;
+        transform: perspective(300px) rotateY(0deg);
+        backface-visibility: hidden;
+        transition: .5s;
+    }
+    
+    .box2 .txt {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        line-height: 48px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: perspective(300px) rotateY(180deg);
+        backface-visibility: hidden;
+        transition: .5s;
+    }
+    
+    .price {
+        text-indent: 250px;
+    }
+    
+    .box2:hover img {
+        transform: perspective(300px) rotateY(-180deg);
+    }
+    
+    .box2:hover .txt {
+        transform: perspective(300px) rotateY(0deg);
+    }
+    
+    .box3 {
+        width: 403px;
+        height: 266px;
+        float: left;
+        position: relative;
+    }
+    
+    .box3 img {
+        width: 100%;
+        transform: perspective(300px) rotateY(0deg);
+        backface-visibility: hidden;
+        transition: .5s;
+    }
+    
+    .box3 .txt {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        color: #fff;
+        line-height: 29px;
+        position: absolute;
+        text-indent: 140px;
+        top: 0;
+        left: 0;
+        transform: perspective(300px) rotateY(180deg);
+        backface-visibility: hidden;
+        transition: .5s;
+    }
+    
+    .box3:hover img {
+        transform: perspective(300px) rotateY(-180deg);
+    }
+    
+    .box3:hover .txt {
+        transform: perspective(300px) rotateY(0deg);
+    }
+    /*-----------連結樣式--------------*/
+    
+    a:link,
+    a:visited {
+        color: #F60;
+    }
+    
+    a:hover {
+        color: #F00;
+        text-decoration: none;
+    }
+    
+    .txt ul li a:link,
+    .txt ul li a:visited {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .txt ul li a:hover {
+        color: #F00;
+        text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="index.html"> <img src="images/logo_01.png" width="173" height="180" /> </a>
+            <div class="icon">
+                <ul>
+                    <li id="fb"><a href="#">fb</a></li>
+                    <li id="google"><a href="#">gl</a></li>
+                    <li id="twitter"><a href="#">tw</a></li>
+                </ul>
+                <br clear="all" />
+            </div>
+            <div class="button">
+                <ul id="MenuBar1" class="MenuBarHorizontal">
+                    <li><a id="menufirst" class="MenuBarItemSubmenu" href="page/menu/menu.html">菜單介紹<br /><span>MENU</span></a>
+                        <ul>
+                            <li><a href="page/menu/menu.html">鍋物</a></li>
+                            <li><a href="#">時蔬</a></li>
+                            <li><a href="#">小菜</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="page/even/even.html" class="MenuBarItemSubmenu">最新消息<BR><span>NEWS</span></a>
+                        <ul>
+                            <li><a href="page/even/even.html">消息</a></li>
+                            <li><a href="page/even/active.html">活動</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="page/store/store.html">店家資訊<BR /><span>STORE</span></a> </li>
+                    <li><a href="page/about/about.html">關於我們<BR><span>ABOUT</span></a></li>
+                    <li><a href="page/contact/contact.html">聯絡我們<br /><span>CONTACT</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/content/banner1.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/content/banner2.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/content/banner3.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h2><span>───────── NEW AND EVENT ─────────</span></h2>
+            <div class="event_pic"><img src="images/content/even1.jpg" /></div>
+            <div class="event_pic"><img src="images/content/even2.jpg" /></div>
+            <div class="event_pic"><img src="images/content/even3.jpg" /></div>
+            <div class="event_text">
+                <p>2015-04-02
+                    <br />
+                    <h4>《酒家大宴》</h4> 由小當家主廚，以特級廚師之名煮出他媽媽阿貝師傅的味道，並拿捏食材靈魂，掌握卓頂火候。用台菜醞釀東北風味，以在地情懷勾起陽泉酒家風華。
+                    <br /> __________
+                    <br />
+                    <a href="page/even/active.html">read   more</a></p>
+            </div>
+            <div class="event_text">
+                <p>2015-03-16
+                    <br />
+                    <h4>《荷楓日式陶鍋》</h4>
+                    <p>春酒3/17不開放營業公告親愛的顧客您好:因公司內鬥舉辦鬥毆活動3/17(二)晚間17:00~22:00不提供服務，造成您的不便，敬請見諒。
+                        <br /> __________
+                        <br />
+                        <a href="page/even/even.html">read   more</a> </p>
+            </div>
+            <div class="event_text">2014-10-08
+                <br />
+                <h4>《荷楓迎春》</h4> 憑2014年台灣鬼島手冊享優惠憑2014年台灣鬼島手冊，至2014年12月30日享以下優惠，雙人同享一人免費，還附贈泡 湯卷乙張
+                <br /> _________
+                <br />
+                <a href="page/even/even.html">read    more</a></div>
+            <br clear="all" />
+            <div class="news">
+                <div>
+                    <div class="news_pic1"><img src="images/content/new1.jpg" /></div>
+                    <div class="news_text">
+                        <p>位於中原大學柏德廣場內，不僅學生們喜愛，連附近的住家社區，也相當捧場！對鍋物的挑剔、對好吃的追求，荷楓帶給人的絕對不單是冬天才能吃的火鍋，老闆相信，可以符合四季的美味火鍋，絕對不只是好吃，而是在任何時候吃，都能覺得美 味才為重要。
+                        </p>
+                        <p><a href="page/about/about.html" style="line-height: 100px;">read more</a></p>
+                    </div>
+                    <br clear="all" />
+                </div>
+                <div class="news_pic3">
+                    <!-- Start WOWSlider.com BODY section -->
+                    <!-- add to the <body> of your page -->
+                    <div id="wowslider-container1">
+                        <div class="ws_images">
+                            <ul>
+                                <li><img src="data1/images/p_0001.jpg" alt="推薦菜色:霜降牛肉" title="推薦菜色:霜降牛肉" id="wows1_0" /></li>
+                                <li>
+                                    <a href="http://wowslider.com"><img src="data1/images/p_0002.jpg" alt="css slider" title="新品上市:糙老油條" id="wows1_1" /></a>
+                                </li>
+                                <li><img src="data1/images/p_0003.jpg" alt="現時供應:臭酸火鍋料" title="現時供應:臭酸火鍋料" id="wows1_2" /></li>
+                            </ul>
+                        </div>
+                        <div class="ws_bullets">
+                            <div>
+                                <a href="#" title="推薦菜色:霜降牛肉"><span><img src="data1/tooltips/p_0001.jpg" alt="推薦菜色:霜降牛肉"/>1</span></a>
+                                <a href="#" title="新品上市:糙老油條"><span><img src="data1/tooltips/p_0002.jpg" alt="新品上市:糙老油條"/>2</span></a>
+                                <a href="#" title="現時供應:臭酸火鍋料"><span><img src="data1/tooltips/p_0003.jpg" alt="現時供應:臭酸火鍋料"/>3</span></a>
+                            </div>
+                        </div>
+                        <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slideshow javascript</a> by WOWSlider.com v8.2</div>
+                        <div class="ws_shadow"></div>
+                    </div>
+                    <script type="text/javascript" src="engine1/wowslider.js"></script>
+                    <script type="text/javascript" src="engine1/script.js"></script>
+                    <!-- End WOWSlider.com BODY section -->
+                </div>
+                <div class="news_pic2"><img src="images/content/new2.jpg" />
+                    <br clear="all" />
+                </div>
+            </div>
+            <h2><span>───────── OUR MENU ─────────</span></h2>
+            <div class="box_all">
+                <div class="box_left">
+                    <div class="box">
+                        <img src="images/content/menu_meet.jpg" alt="">
+                        <div class="txt">
+                            <ul>
+                                <li>
+                                    <h3>肉品</h3></li>
+                                <li><a href="#">雞肉</a></li>
+                                <li><a href="#">豬肉</a></li>
+                                <li><a href="#">牛肉</a></li>
+                                <li><a href="#">羊肉</a></li>
+                                <li><a href="#">海鮮</a></li>
+                                <li><a href="#">素食</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box3">
+                        <img src="images/content/menu_food.jpg" alt="">
+                        <div class="txt">
+                            <ul>
+                                <li>
+                                    <h3 style="text-indent: 160px;">鍋物加購</h3></li>
+                                <li><a href="#">火鍋料..............30</a></li>
+                                <li><a href="#">肉片..................30</a></li>
+                                <li><a href="#">王子麵..............10</a></li>
+                                <li><a href="#">老油條..............10</a></li>
+                                <li><a href="#">金針菇..............10</a></li>
+                                <li><a href="#">豆皮..................10</a></li>
+                                <li><a href="#">讚岐烏龍麵........20</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <img src="images/content/menu_soup.jpg" alt="">
+                    <div class="txt">
+                        <ul>
+                            <li>
+                                <h3>湯頭</h3></li>
+                            <li><a href="#">原味鍋</a></li>
+                            <li><a href="#">咖哩鍋</a></li>
+                            <li><a href="#">起士鍋</a></li>
+                            <li><a href="#">酸菜鍋</a></li>
+                            <li><a href="#">味僧鍋</a></li>
+                            <li><a href="#">番茄鍋</a></li>
+                            <li><a href="#">沙茶鍋</a></li>
+                            <li><a href="#">韓式泡菜鍋</a></li>
+                            <li><a href="#">泰式酸辣鍋</a></li>
+                            <li class="price">110元起</li>
+                        </ul>
+                    </div>
+                </div>
+                <br clear="all">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row_store">
+                <p> <i class="fa fa-caret-right "></i><strong> 店家資訊</strong>
+                    <p> 店名 : 荷楓日式陶鍋
+                        <br /> 地址 : 桃園縣中壢市實踐路225-26號
+                        <br /> 電話 : (03)465-8585
+                        <br /> 營業時間 : 週一至週日 11:00~21:00
+                        <br/>
+            </div>
+            <div class="copy_right"> © 2015 荷楓日式陶鍋. ALL RIGHTS RESERVED. </div>
+            <div class="row_servise">
+                <p> <i class="fa fa-caret-right "></i><strong> 其他服務</strong>
+                    <br />
+                    <p> <a href="https://www.mcdelivery.com.tw/tw/jsp-desktop/menu/menu.jsp" target="_blank">外送服務</a> /<a href="http://www.holiday.com.tw/booking/" target="_blank"> 線上訂位</a> / <a href="zd701/zd701.html" target="_blank">友好連結</a>
+              <div class="row_map">
+                            <p> <i class="fa fa-caret-right "></i><strong> 地圖</strong>
+                                <br />
+                                <img src="images/map_03.png" width="281" height="173" /></p>
+                        </div>
+            </div>
+            <div class="row_community">
+                <p> <i class="fa fa-caret-right "></i><strong> 社群</strong>
+                    <br />
+                    <p><i class="fa fa-cutlery"></i> <a href="#">美食APP</a>
+                        <br />
+                        <i class="fa fa-facebook-square"></i> <a href="#">FB粉絲團</a>
+                        <br />
+                    </p>
+                    <div class="row_phone">
+                        <p> <i class="fa fa-caret-right "></i><strong> 手機板</strong></p>
+                        <p> <a href="mobile/index.html"><img src="images/qr_06.jpg" width="70" height="70" /></a>
+              </div>
+            </div>
+        </div>
+        <!-- jQuery (Bootstrap 所有外掛均需要使用) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {
+            imgDown: "SpryAssets/SpryMenuBarDownHover.gif",
+            imgRight: "SpryAssets/SpryMenuBarRightHover.gif"
+        });
+        </script>
+</body>
+
+</html>

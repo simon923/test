@@ -1,0 +1,710 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>荷楓日式陶鍋-店家</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/hf_icon.ico" />
+    <link rel="stylesheet" href="index_files/mbcsmbmcp.css" type="text/css" />
+    <link href="../../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+    <script src="../../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="../../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <script src="../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    body {
+        background-image: url(images/images.jpg);
+        background-repeat: repeat;
+    }
+    /*--------------------基本架構樣式---------------------*/
+    
+    #wrapper {
+        position: relative;
+        width: 960px;
+        margin: auto;
+        /*版面居中對齊*/
+    }
+    
+    #header {
+        height: 180px;
+        width: 960px;
+        background-image: url(images/header.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /*-----------------按鈕選單------------------------*/
+    
+    .button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #menufirst {
+        border-top-left-radius: 45px;
+    }
+    #menucolor {
+		background-color:rgba(255,0,30,0.5);
+		}
+    .MenuBarHorizontal span {
+        font-size: 12px;
+    }
+    /*-----------------------icon-------------------------*/
+    
+    .icon {
+        height: 32px;
+        width: 120px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    
+    .icon ul {
+        width: 120px;
+    }
+    
+    .icon ul li {
+        width: 32px;
+        height: 32px;
+        float: left;
+        text-indent: -9999px;
+        padding-right: 8px;
+    }
+    
+    .icon ul li a:link,
+    .icon ul li a:visited {
+        display: block;
+        height: 32px;
+        width: 32px;
+        text-indent: -9999px;
+    }
+    
+    .icon ul #fb a:link,
+    .icon ul #fb a:visited {
+        background-image: url(icon/facebook_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #fb a:hover {
+        background-image: url(icon/facebook_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:link,
+    .icon ul #google a:visited {
+        background-image: url(icon/google_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #google a:hover {
+        background-image: url(icon/google_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:link,
+    .icon ul #twitter a:visited {
+        background-image: url(icon/twitter_circle_gray-32.png);
+        background-repeat: no-repeat;
+    }
+    
+    .icon ul #twitter a:hover {
+        background-image: url(icon/twitter_circle_color-32.png);
+        background-repeat: no-repeat;
+    }
+    /*-------------------------頁尾---------------------------*/
+    
+    .footer {
+        width: 960px;
+        background-color: rgba(0, 0, 0, .7);
+        position: relative;
+        /*height: 300px;*/
+        
+        overflow: hidden;
+    }
+    
+    .footer .row_servise p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 40px;
+        word-spacing: 5px;
+    }
+    
+    .footer .row_store p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_community p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .footer .row_phone p {
+        font-size: 16px;
+        color: #FFF;
+        line-height: 25px;
+        padding-left: 60px;
+    }
+    
+    .row_store {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_servise {
+        width: 380px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+    
+    .row_map {
+        position: relative;
+    }
+    
+    .row_community {
+        width: 200px;
+        line-height: 25px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .row_phone {
+        position: relative;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }
+    
+    .copy_right {
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        font-size: 10px;
+        color: #FFF;
+    }
+    
+    .footer a:link,
+    .footer a:visited {
+        color: #FFF;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        color: #F60;
+        text-decoration: none;
+    }
+    /*--------------------內容-----------------------*/
+    
+    #content {
+        position: relative;
+        /*background-image: url(images/bg2.jpg);*/
+        
+        background-color: #FFF;
+        background-repeat: repeat;
+        overflow: hidden;
+    }
+    
+    .store_banner {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    
+    .border {
+        width: 550px;
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: #F03;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    
+    .border2 {
+        width: 500px;
+        border-top-width: 1px;
+        border-top-style: dashed;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: #999;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .store_txt {
+        width: 400px;
+        position: relative;
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    
+    .store_txt h3 {
+        line-height: 40px;
+    }
+    
+    .store_icon {
+        position: absolute;
+        list-style: none;
+        top: 0px;
+        right: -100px;
+    }
+    
+    .store_icon li {
+        display: inline-block;
+    }
+    
+    .wid {
+        padding-top: 30px;
+        padding-left: 100px;
+        margin-bottom: 25px;
+    }
+    
+    #TabbedPanels1 {
+        width: 570px;
+        margin-top: 20px;
+    }
+    
+    .TabbedPanelsContentGroup {
+        padding: 20px;
+    }
+    
+    .pic img {
+        margin: 25px;
+    }
+    /*-----------連結樣式--------------*/
+    
+    a:link,
+    a:visited {
+        color: #F60;
+    }
+    
+    a:hover {
+        color: #F00;
+    }
+    
+    .txt ul li a:link,
+    .txt ul li a:visited {
+        color: #FFF;
+    }
+    
+    .txt ul li a:hover {
+        color: #F00;
+    }
+    /*-------------animation-----------------*/
+    
+    .black {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        transition: opacity 0.8s, left 0s 0.8s;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+    }
+    
+    .black.close {
+        opacity: 1;
+        left: 0;
+        transition: opacity 0.8s, left 0s;
+    }
+    
+    .msg .close_btn {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-indent: -1000em;
+        background-color: #000;
+        border: 2px solid #FFF;
+        top: -15px;
+        right: -15px;
+        position: absolute;
+    }
+    
+    .msg .close_btn:before {
+        content: 'X';
+        color: #FFF;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-indent: 0;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .msg {
+        width: 800px;
+        height: 500px;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: -2000em;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000;
+        transition: opacity 0.8s, left 0s 0.8s;
+        opacity: 0;
+        z-index: 5;
+    }
+    
+    .msg.close {
+        opacity: 1;
+        left: 0;
+        transition: opacity 0.8s, left 0s;
+    }
+    
+    .open {
+        /*      position: absolute;
+            z-index: 50;
+            margin: 50px;*/
+    }
+    </style>
+    <script>
+    $(function() {
+
+
+        $('.msg .close_btn').click(function() {
+            $('.msg').removeClass('close');
+            $('.black').removeClass('close');
+        })
+
+        $('.open').click(function() {
+            $('.msg').addClass('close');
+            $('.black').addClass('close');
+        })
+
+
+    })
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="../../index.html"> <img src="images/logo_01.png" width="173" height="180" /> </a>
+            <div class="icon">
+                <ul>
+                    <li id="fb"><a href="#">fb</a></li>
+                    <li id="google"><a href="#">gl</a></li>
+                    <li id="twitter"><a href="#">tw</a></li>
+                </ul>
+                <br clear="all" />
+            </div>
+            <div class="button">
+                <ul id="MenuBar1" class="MenuBarHorizontal">
+                    <li><a id="menufirst" class="MenuBarItemSubmenu" href="../menu/menu.html">菜單介紹<br /><span>MENU</span></a>
+                        <ul>
+                            <li><a href="../menu/menu.html">鍋物</a></li>
+                            <li><a href="#">時蔬</a></li>
+                            <li><a href="#">小菜</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../even/even.html" class="MenuBarItemSubmenu">最新消息<BR><span>NEWS</span></a>
+                        <ul>
+                            <li><a href="../even/even.html">消息</a></li>
+                            <li><a href="../even/active.html">活動</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="menucolor" href="store.html">店家資訊<BR /><span>STORE</span></a> </li>
+                    <li><a href="../about/about.html">關於我們<BR><span>ABOUT</span></a></li>
+                    <li><a href="../contact/contact.html">聯絡我們<br /><span>CONTACT</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="mbmcpebul_wrapper" style="width: 38px;">
+                <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu">
+                    <li class="first_button last_button">
+                        <div class="buttonbg gradient_button gradient130"><a>店<br />家<br />資<br />訊</a></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="store_banner">
+                <img src="images/store/img_about.png" alt="">
+            </div>
+            <div class="wid">
+                <h2>桃園中原店</h2>
+                <div class=border></div>
+                <img src="images/store/store_pic.jpg" alt="">
+                <div id="TabbedPanels1" class="TabbedPanels">
+                    <ul class="TabbedPanelsTabGroup">
+                        <li class="TabbedPanelsTab" tabindex="0">基本資訊</li>
+                        <li class="TabbedPanelsTab" tabindex="0">實境寫真</li>
+                    </ul>
+                    <div class="TabbedPanelsContentGroup">
+                        <div class="TabbedPanelsContent">
+                            <div class="store_txt">
+                                <h3>荷楓日式陶鍋</h3>
+                                <p>地址：桃園縣中壢市實踐路225-26號</p>
+                                <div class=border2></div>
+                                <p>電話：(03)465-8585</p>
+                                <div class=border2></div>
+                                <p>營業時間：週一至週日 11:00~21:00</p>
+                                <div class=border2></div>
+                                <p>店舖介紹：融合現代與日式典雅元素，黑、紅為基調的創 意延伸，光影映照出新東方意象之美，精采食藝秀在餐桌 前上演，延伸的長廊帶你ㄧ覽空間美學。臨近金融商圈， 餐後沿著敦化北路往南走，被譽為近代建築散佈地圖的路 段，寬敞人行道與林立行道樹，漫步欣賞60 ~ 90年代不同 時期的建築樣貌，感受風采萬千的台北街景。
+                                </p>
+                                <div class=border2></div>
+                                <ul class="store_icon">
+                                    <li><img src="images/store/store_fb.jpg" alt=""></li>
+                                    <li><img src="images/store/store_maill.jpg" alt=""></li>
+                                    <li><img src="images/store/store_map.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1808.6286810644392!2d121.23880512266555!3d24.957356968137997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468223e23791bd7%3A0xe252d9ca2752e6c2!2z6I235qWT5pel5byP6Zm26Y2L!5e0!3m2!1szh-TW!2stw!4v1432303784486" width="520" height="390" frameborder="0" style="border:0"></iframe>
+                        </div>
+                        <div class="TabbedPanelsContent">
+                            <div class="pic">
+                                <a href="javascript:;" class="open"><img src="images/store/pic1.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　　    　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic2.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　    　　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic3.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　　　    　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic4.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　　    　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic5.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　　    　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic6.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　    　　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic7.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　    　　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic8.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　　    　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                                <a href="javascript:;" class="open"><img src="images/store/pic9.jpg" alt=""></a>
+                                <div class="msg">
+                                    <h1>找不到圖片</h1>
+                                    <pre>  　◢██████◣　　　　    　　◢████◣ 
+◢◤　　　　　　◥◣　　　　◢◤　　　　◥◣ 
+◤　　　　　　　　◥◣　　◢◤　　　　　　█...揪咪 
+▎　　　◢█◣　　　◥◣◢◤　　◢█　　　█ 
+◣　　◢◤　　◥◣　　　　　　◢◣◥◣　◢◤. 
+◥██◤　　◢◤　　　　　　　　　◥◣ 
+　　　　　　█　●　　　　　　　●　█ 
+　　　　　　█　〃　　　▄　　　〃　█ 
+　　　　　　◥◣　　　╚╩╝　　　◢◤ 
+　　　　　　　◥█▅▃▃　▃▃▅█◤ 
+　　　　　　　　　◢◤　　　◥◣　 
+　　　　　　　　　█　　　　　█　 
+　　　　　　　　◢◤▕　　　▎◥◣ 
+　　　　　　　▕▃◣◢▅▅▅◣◢▃</pre>
+                                    <a href="javascript:;" class="close_btn">關閉</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row_store">
+                <p> <i class="fa fa-caret-right "></i><strong> 店家資訊</strong>
+                    <p> 店名 : 荷楓日式陶鍋
+                        <br /> 地址 : 桃園縣中壢市實踐路225-26號
+                        <br /> 電話 : (03)465-8585
+                        <br /> 營業時間 : 週一至週日 11:00~21:00
+                        <br/>
+            </div>
+            <div class="copy_right"> © 2015 荷楓日式陶鍋. ALL RIGHTS RESERVED. </div>
+            <div class="row_servise">
+                <p> <i class="fa fa-caret-right "></i><strong> 其他服務</strong>
+                    <br />
+                    <p> <a href="#">外送服務</a> / <a href="#">線上訂位</a> / <a href="#">友好連結</a>
+                        <div class="row_map">
+                            <p> <i class="fa fa-caret-right "></i><strong> 地圖</strong>
+                                <br />
+                                <img src="images/map_03.png" width="281" height="173" /></p>
+                        </div>
+            </div>
+            <div class="row_community">
+                <p> <i class="fa fa-caret-right "></i><strong> 社群</strong>
+                    <br />
+                    <p><i class="fa fa-cutlery"></i> <a href="#">美食APP</a>
+                        <br />
+                        <i class="fa fa-facebook-square"></i> <a href="#">FB粉絲團</a>
+                        <br />
+                    </p>
+                    <div class="row_phone">
+                        <p> <i class="fa fa-caret-right "></i><strong> 手機板</strong></p>
+                        <p> <img src="images/qr_06.jpg" width="70" height="70" />
+                    </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+        </script>
+        <script type="text/javascript">
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {
+            imgDown: "../../SpryAssets/SpryMenuBarDownHover.gif",
+            imgRight: "../../SpryAssets/SpryMenuBarRightHover.gif"
+        });
+        </script>
+</body>
+
+</html>
